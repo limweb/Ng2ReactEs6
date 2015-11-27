@@ -1,6 +1,7 @@
 # Ng2ReactEs6
 Angular2 Es6 React14.3 webpack babel 
 
+!!! do not update babel to 6.x it not work  !!!
 #install
 npm i
 
