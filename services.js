@@ -1,0 +1,14 @@
+export class Greeter {
+  say(greeting: string, name: string) {
+    const capitalized = this._capitalize(greeting);
+    return `Tlen ${capitalized}, ${name}!`
+  }
+
+  _capitalize(str: string) {
+    if (str) {
+      return str.replace(/^(.)/, (c) => c.toUpperCase());
+    } else {
+      return str;
+    }
+  }
+}
